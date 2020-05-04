@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+	<html lang="eng">
+	<head>
+      <meta charset UTF-8>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="x-UA-Compatible" content="ie-edge">
+      <link rel="stylesheet" type="text/css" media="screen">
+      <title>Mahryam's Kitchen</title>
+      <style type="text/css">
+      html{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        padding: 10px;
+        margin: 30px;
+      }
+  
+  h1{
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+    text-align: center;
+    text-decoration: underline;
+    color: #27053fa1;
+  }
+
+  h1 span{
+     border: 4px dashed #27053fa1;
+     padding: 10px;
+  }
+   h1, h2, h3{
+	   font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    p, h2{
+      margin: 0;
+      padding: 0;
+    }
+    
+   h2{
+	   font-size:14px;
+	   text-align:center;
+   }
+   
+   h3{
+     font-size:14px;
+     padding: 5px;
+   }
+
+   fieldset{
+     padding: 30px;
+     border: 5px solid rgb(12, 4, 4);
+     border-radius: 30px;
+   }
+
+   #single{
+     margin: 10px;
+   }
+
+   .section{
+    background-image:url(images/Kitchen.jpg);
+    padding: 20px;
+			margin-bottom: 10px;
+			border-radius: 10px;
+   }
+
+   form{
+     font-family: monospace;
+     font-size: 25px;
+     text-align: center;
+		 font-weight: bold;
+   }
+
+   input {
+	margin-bottom: 10px;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 60%;
+	outline: none;
+  }
+
+  textarea{
+    height: 5pc;
+  }
+  .button{
+        background-color: rgb(80, 87, 122);
+       width:70%;
+       font-weight:bold;
+       color: black;
+       padding:10px;
+       border: none;
+       margin:0;
+       text-align:center;
+       cursor: pointer;
+   }
+
+   .submit :hover{
+     color: #1453c760;
+   }
+  
+   .footer{
+  	   /*color: white;*/
+	   font-family:monospace;
+	   font-size:24px;
+     text-decoration:underline;
+     text-align: center;
+   }
+
+   @media screen and(max-width:320px){
+	body{
+    background-color: #efefef;
+    width: 60%;
+    height: 70%;
+		margin: 30px;
+  }
+  p, fieldset{
+    padding: 10px;
+  }
+} 
+      </style>
+    </head>
+    <header>
+            <!--Description-->
+                <h1>Mahryam's Kitchen Art</h1>
+                <p>Mahryam's Kitchen Art is a course which is driven at building the culinary skills of young people within the age range of (16-30 years). With various catering courses which have been provided, we believe you would be able to harness and maximise the opportunities attached to this field. Register and enjoy the potential benefits pose by this Kitchen.</p>
+               <br>
+                <!--Signup section-->
+            <section>
+                <h2>Don't be a doubting Thomas, signup for Mahryam's Kitchen Art now</h2>
+                </section>
+    </header>
+                <body>
+                    <main>
+                     <!--Form Section-->
+                     <fieldset id="single">
+                      <div class="section">
+                        <form>
+                         <label for="name">First name:</label><br>
+                         <input type="text" name="name" required>
+                         <br>
+                         <label for="name">Last name:</label><br>
+                         <input type="text" name="name" required>
+                         <br>
+                         <label for="name">Username:</label><br>
+                         <input type="text" name="name" required>
+                         <br>
+                         <label for="email">E-mail address: </label><br>
+                         <input type="text" name="email" required>
+                         <br>
+                         <label for="password">Password:</label><br>
+                         <input type="text" name="p/w" required><br><br>
+                    <!-- <div class="button"> -->
+                        <div class="submit">
+                         <input type="button" class="button" value="CREATE ACCOUNT"/></div>
+                         <br>
+                    <!--Submit-->
+                         <p>Already have an account? <a href="Login.html">Log in now</a></p>
+                        </form>
+                     </fieldset>
+                     <br>
+                    <!--Footer-->
+                         <footer class="footer">&copy;Mahryam's Kitchen 2020. Developed by Law_Dev</footer>
+                      </div>
+                    </main>
+                </body>
+    </html>
